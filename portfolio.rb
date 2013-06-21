@@ -9,24 +9,18 @@ class Client
     @portfolio = {}
   end
 
-def buy_stock
-end
+  def buy_stock
+  end
 
-def sell_stock
-end
-
-class Portfolio
-  attr_accessor :company, :price, :quantity
-  def initialize
-    @company = company
-    @price = price
-    @quantity = quantity
+  def sell_stock
   end
 end
 
 
+
+
 puts YahooFinance::get_quotes(YahooFinance::StandardQuote, 'GOOG')['GOOG'].lastTrade
 
-
+88
 
 end
