@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-class Portfolio
-    attr_accessor :p_name, :stocks, :value
-    def initialize(p_name)
-      @p_name = p_name
-      @stocks = {}
-      @value = 0
-    end
-
-end
-
-=======
 require 'pry'
 require 'yahoofinance'
 
@@ -36,4 +24,3 @@ puts YahooFinance::get_quotes(YahooFinance::StandardQuote, 'GOOG')['GOOG'].lastT
 88
 
 end
->>>>>>> 87c1d8dc29d7bc497ec7f97b3725f34bd40341d6
